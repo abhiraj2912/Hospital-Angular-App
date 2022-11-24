@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PatientEntryComponent } from './patient-entry/patient-entry.component';
 import { PatientsearchComponent } from './patientsearch/patientsearch.component';
+import { PatientDeleteComponent } from './patient-delete/patient-delete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PatientEntryComponent,
-    PatientsearchComponent
+    PatientsearchComponent,
+    PatientDeleteComponent
   ],
   imports: [
     BrowserModule,
