@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class PatientEntryComponent {
 
+  patientname=""
+  patientid=""
+  address=""
+  phone=""
+  appoinmentdate=""
+  image=""
+  doctorname=""
+
+  patientValues=()=>{
+    let data={"patientname":this.patientname,"patientid":this.patientid,"address":this.address,"phone":this.phone,"appoinmentdate":this.appoinmentdate,"image":this.image,"doctorname":this.doctorname}
+    console.log(data)
+  }
+
 }
